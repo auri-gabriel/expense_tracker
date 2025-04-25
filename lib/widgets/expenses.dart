@@ -1,3 +1,4 @@
+import 'package:expense_tracker/widgets/chart/chart.dart';
 import 'package:expense_tracker/widgets/expeses_list/expenses_list.dart';
 import 'package:expense_tracker/models/expense.dart';
 import 'package:expense_tracker/widgets/new_expense.dart';
@@ -85,7 +86,12 @@ class _ExpensesState extends State<Expenses> {
           IconButton(onPressed: _openAddExpenseOverlay, icon: Icon(Icons.add)),
         ],
       ),
-      body: Column(children: [Text('The chart'), Expanded(child: mainContent)]),
+      body: Column(
+        children: [
+          Chart(expenses: _registeredExpenses),
+          Expanded(child: mainContent),
+        ],
+      ),
     );
   }
 }
