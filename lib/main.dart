@@ -14,7 +14,7 @@ void main() {
           backgroundColor: kColorScheme.onPrimaryContainer,
           foregroundColor: kColorScheme.primaryContainer,
         ),
-        scaffoldBackgroundColor: kColorScheme.secondary,
+        scaffoldBackgroundColor: kColorScheme.surface,
         cardTheme: CardTheme().copyWith(
           color: kColorScheme.secondaryContainer,
           margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
@@ -26,9 +26,9 @@ void main() {
         ),
         textTheme: ThemeData().textTheme.copyWith(
           titleLarge: TextStyle(
-            fontWeight: FontWeight.normal,
+            fontWeight: FontWeight.bold,
             color: kColorScheme.onSecondaryContainer,
-            fontSize: 14,
+            fontSize: 16,
           ),
         ),
       ),
