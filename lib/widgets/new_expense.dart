@@ -112,7 +112,7 @@ class _NewExpenseState extends State<NewExpense> {
                             keyboardType: TextInputType.number,
                             decoration: InputDecoration(
                               label: Text('Amount'),
-                              prefixText: '\$ ',
+                              prefixText: 'R\$ ',
                             ),
                           ),
                         ),
@@ -174,7 +174,7 @@ class _NewExpenseState extends State<NewExpense> {
                             keyboardType: TextInputType.number,
                             decoration: InputDecoration(
                               label: Text('Amount'),
-                              prefixText: '\$ ',
+                              prefixText: 'R\$ ',
                             ),
                           ),
                         ),
