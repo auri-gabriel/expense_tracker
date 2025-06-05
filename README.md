@@ -23,7 +23,7 @@
 To run the app locally:
 
 ```bash
-git clone https://github.com/yourusername/expense_tracker.git
+git clone https://github.com/auri-gabriel/expense_tracker.git
 cd expense_tracker
 flutter pub get
 flutter run
