@@ -17,7 +17,7 @@ void main() {
       darkTheme: ThemeData.dark().copyWith(
         colorScheme: kDarkColorScheme,
         textTheme: TextTheme().copyWith(),
-        cardTheme: CardTheme().copyWith(
+        cardTheme: CardThemeData().copyWith(
           color: kDarkColorScheme.secondaryContainer,
           margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
         ),
@@ -36,7 +36,7 @@ void main() {
           foregroundColor: kColorScheme.primaryContainer,
         ),
         scaffoldBackgroundColor: kColorScheme.surface,
-        cardTheme: CardTheme().copyWith(
+        cardTheme: CardThemeData().copyWith(
           color: kColorScheme.secondaryContainer,
           margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
         ),
